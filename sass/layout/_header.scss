@@ -1,0 +1,32 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  nav{
+    margin-right: 5%;
+
+    ul{
+      display: flex;
+      justify-content: flex-end;
+      gap:50px;
+      li{
+        display: inline-block;
+        position: relative;
+        a{
+        font-family: $secondary-font;
+        text-decoration: none;
+        list-style: none;
+        color:$grey;
+        span{
+          font-family: $secondary-font;
+          color:white;
+          font: weight 400px;;
+        }
+        }
+      }
+    }
+  }
+}
+
+
+
