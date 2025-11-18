@@ -1,56 +1,24 @@
-.buttons{
-  display: flex;
-  align-items: center;
-  margin-bottom: 45px;
-  &__color{
-    background-color: $pink;
-    border-radius: 15px 15px 15px 0px;
-    border:0;
-    max-width: 220px;
-    min-width: 220px;
-    height: 50px;
-    font-size: 16px;
-    a{
+button a{
     text-decoration: none;
+    text-transform: none;
+    background-color: $black2;
     color:white;
-    font-family: $secondary-font ;
-    font-weight: 400;
-    }
-  }
-  &__underline{
-    font-family: $secondary-font;
-    font-weight: 600;
-    display:flex;
-    margin-left: 50px;
+    border: 0;
+    padding:0;
+    padding-bottom: 10px;
+}
+button{
+    text-decoration: none;
+    text-transform: none;
+    background-color: $black2;
     color:white;
-    text-align: center;
-    align-items: center;
-    a{
-      width: 1000px;
-    }
-    img{
-      margin-left: 10px
-    }
-  }
+    border: 0;
+    padding:0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid $green;
+    
+    
 }
-.buttons__color:hover{
-        background-color: whitesmoke;
-        a{color:$pink;
-          line-height: 1px;
-          font-weight: bolder;
-          font-size: 20px;
-        }
+button a:hover{
+    color:$green;
 }
-.buttons__underline:hover{
-  color:$pink;
-  line-height: 1px;
-  font-weight: bolder;
-  font-size: 20px;
-  img{
-    color:$pink;
-    line-height: 1px;
-    font-weight: bolder;
-    font-size: 20px;
-  }
-}
-

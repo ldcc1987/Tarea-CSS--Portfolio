@@ -1,10 +1,10 @@
 <!doctype html>
-<html lang="">
+<html lang="esp">
 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title></title>
+  <title>Portfolio </title>
   <link rel="stylesheet" href="css/style.css">
   <meta name="description" content="">
 
@@ -22,61 +22,183 @@
   <meta name="theme-color" content="#fafafa">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-</head>
-
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+  </head>
 <body>
-  <header>
-    <a href="#"><img src="img/logo.svg" alt="Logo de la empresa"></a>
-    <nav>
-      <ul>
-        <li><a href="#"><span>Home</span></a><span class="decoration"></span></li>
+<!--Body: Header, Section, Section, Section, Footer-->
 
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">About Us</a></li>
-      </ul>
+<!-- Header: Logo, nav, div{*5 oval border}, title presentation, text presentation, button "contact me",photo, div{circle border}, -->
+<header>
+  <div class="main_header">
+    <a href="#" class="header_logo"><img src="img/name_logo.svg" alt="Nombre"></a>
+    <nav class="header_nav">
+      <a href="https://github.com/ConquerBlocks"><img src="img/github-fill.svg" alt="Link a github"></a>
+      <a href="https://www.frontendmentor.io/"><img src="img/frontendmentor.svg" alt="Link a Fontend Mentor"></a>
+      <a href="https://www.linkedin.com/school/conquerblocks/posts/?feedView=all"><img src="img/LinkedIn.svg" alt="Link a Linkedin"></a>
+      <a href="https://x.com/conquerblocks?lang=es"><img src="img/twitter-fill.svg" alt="Link a X o Twitter"></a>
     </nav>
-  </header>
-  <main class="separador">
-    <div class="container">
-      <div class="hero">
-        <h1 class="hero__title">Build your best community starting from here.</h1>
-        <p class="hero__subtitle">
-          Meet and communicate with the best people to run projects, events or other activities in a more effective and fun way
-        </p>
-      </div>
-      <div class="buttons">
-        <button class="buttons__color"><a href="#">Get Started</a></button>
-        <a href="#" class="buttons__underline">Learn More <img src="img/Arrow.svg" alt="Arrow"></a>
-      </div>
-      <div class="information">
-        <div class="main__container">
-          <div class="logo"><img src="img/build_community.svg" alt="Build Community"></div>
-          <h3>Build Community</h3>
-        </div>
-        <div class="main__container">
-        <div class="logo"><img src="img/share_events.svg" alt="Share Events"></div>
-          <h3>Share Events</h3>
-        </div>
-        <div class="main__container">
-        <div class="logo"><img src="img/get_information.svg" alt="Get Information"></div>
-          <h3>Get Information</h3>
-        </div>
-      </div>
+  </div>
+  <div class="hero_container">
+    <div class="ovalos">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
     </div>
-    <section class="images">
-        <div class="imagen1"><img src="img/man_orange_hat.png" alt=""></div>
-        <div class="imagen2"><img src="img/redhead.png" alt=""></div>
-        <div class="imagen3"><img src="img/asian_women.png" alt=""></div>
-        <div class="imagen4"><img src="img/man_whit_glasses.png" alt=""></div>
-        <div class="imagen5"><img src="img/woman_white_glasses.png" alt=""></div>
-    </section>
-    <div class="circles">
-      <div class="min__circle"></div>
-      <div class="max__circle"></div>
+    <div class="hero_photo">
+      <div class="circle_border"></div>
+      <div class="perfil_image"></div>
     </div>
-  </main>
+    <div class="hero_presentation">
+      <h1 class="hero_title">Nice to meet you! I’m <span> Adam Keyes</span>.</h1>
+      <p class="hero_text">Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
+      <div class="contact_me_button_header"><button class="header_button"><a href="#">CONTACT ME</a></button></div>
+    </div>
+  </div>   
+</header>
+
+<!-- Section tecnologies: name-description, name-description, name-description, name-description, name-description, name-description, div{*5 oval border}-->
+ <section class="technologies">
+  <div class="section_technologies">
+    <div class="html"><h2>HTML</h2><p>4 Years Experience</p></div>
+    <div class="css"><h2>CSS</h2><p>4 Years Experience</p></div>
+    <div class="javascript"><h2>Javascript</h2><p>4 Years Experience</p></div>
+    <div class="accessibility"><h2>Accessibility</h2><p>4 Years Experience</p></div>
+    <div class="react"><h2>React</h2><p>3 Years Experience</p></div>
+    <div class="sass"><h2>Sass</h2><p>3 Years Experience</p></div>
+      <div class="ovalos">
+        <div class="ovalo1"></div>
+        <div class="ovalo2"></div>
+        <div class="ovalo3"></div>
+        <div class="ovalo4"></div>
+        <div class="ovalo5"></div>
+     </div>
+  </div>
+ </section>
+ 
+<!-- Section Proyects: Title, Button "contact me", article{img, h2, link, linl, button, button},article{img, h2, link, linl, button, button},article{img, h2, link, linl, button, button},article{img, h2, link, linl, button, button},article{img, h2, link, linl, button, button},article{img, h2, link, linl, button, button}-->
+<section class="proyects">
+  <div class="section_proyects">
+    <div class="section_proyects_main">
+      <h2 class="proyects">Projects</h2>
+      <div class="contact_me_button_proyect"><button><a href="#">CONTACT ME</a></button></div>
+    </div>
+    <article class="proyect1">
+      <img src="img/design_page.jpg" alt="Imagen del proyecto 1">
+      <h2 class="proyect_1_h2">DESIGN PORTFOLIO</h2>
+      <div class="proyect_links">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+      </div>  
+      <div class="proyect_buttons">
+        <button><a href="#">VIEW PROJECT</a></button>
+        <button><a href="#">VIEW CODE</a></button>
+      </div> 
+    </article>
+    <article class="proyect2">
+      <img src="img/E-Learning_landing_page.jpg" alt="Imagen del proyecto 2">
+      <h2 class="proyect_1_h2">E-LEARNING LANDING PAGE</h2>
+      <div class="proyect_links">
+        
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+      </div>  
+      <div class="proyect_buttons">
+        <button><a href="#">VIEW PROJECT</a></button>
+        <button><a href="#">VIEW CODE</a></button>
+      </div> 
+    </article>
+    <article class="proyect3">
+      <img src="img/Todo_web_app.jpg" alt="Imagen del proyecto 3">
+      <h2 class="proyect_1_h2">TODO WEB APP</h2>
+      <div class="proyect_links">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JAVASCRIPT</a>
+      </div>  
+      <div class="proyect_buttons">
+        <button><a href="#">VIEW PROJECT</a></button>
+        <button><a href="#">VIEW CODE</a></button>
+      </div> 
+    </article>
+    <article class="proyect4">
+      <img src="img/Entertainment_web_app.jpg" alt="Imagen del proyecto 4">
+      <h2 class="proyect_1_h2">ENTERTAINMENT WEB APP</h2>
+      <div class="proyect_links">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JAVASCRIPT</a>
+      </div>  
+      <div class="proyect_buttons">
+        <button><a href="#">VIEW PROJECT</a></button>
+        <button><a href="#">VIEW CODE</a></button>
+      </div> 
+    </article>
+    <article class="proyect5">
+      <img src="img/Memory_game.jpg" alt="Imagen del proyecto 5">
+      <h2 class="proyect_1_h2">MEMORY GAME</h2>
+      <div class="proyect_links">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JAVASCRIPT</a>
+      </div>  
+      <div class="proyect_buttons">
+        <button><a href="#">VIEW PROJECT</a></button>
+        <button><a href="#">VIEW CODE</a></button>
+      </div> 
+    </article>
+    <article class="proyect1">
+      <img src="img/Art_gallery_showcase.jpg" alt="Imagen del proyecto 6">
+      <h2 CLASS="proyect_1_h2">ART GALLERY SHOWCASE</h2>
+      <div class="proyect_links">
+        <a href="#">HTML</a>
+        <a href="#">CSS</a>
+        <a href="#">JAVASCRIPT</a>
+      </div>  
+      <div class="proyect_buttons">
+        <button><a href="#">VIEW PROJECT</a></button>
+        <button><a href="#">VIEW CODE</a></button>
+      </div> 
+    </article>
+  </div>
+ </section>
+
+<!-- Section Contact: title h2, description p, input "name", input "email", input "mesagge", HR, button "send message", div{*5 oval border}-->
+<section class="contact">
+  <div class="contact_text">
+    <h2 class="contact_title">Contact</h2>
+    <p class="contact_description">I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
+  </div>
+  <div class="contact_message">
+    <div class="name">Name</div>
+    <input type="text"></input>
+    <div class="email">Email</div>
+    <input type="email"></input>
+    <div class="mesagge">Mesagge
+    <input type="text"></input></div>
+    <div class="message_button"><button><a href="#">SEND MESSAGE</a></button></div>
+    <div class="ovalos">
+       <div class="ovalo1"></div>
+       <div class="ovalo2"></div>
+       <div class="ovalo3"></div>
+       <div class="ovalo4"></div>
+       <div class="ovalo5"></div>
+     </div>
+  </div>
+
+</section>
+
+<!--Footer: title h2, nav{ logo, logo, logo, logo} -->
+<footer>
+  <div class="footer_main">
+    <div class="img_logo"><img src="img/name_logo.svg" alt="Logo of name Portfolio"></div>
+    <nav class="footer_nav">
+     <a href="https://github.com/ConquerBlocks"><img src="img/github-fill.svg" alt="Link a github"></a>
+     <a href="https://www.frontendmentor.io/"><img src="img/frontendmentor.svg" alt="Link a Fontend Mentor"></a>
+     <a href="https://www.linkedin.com/school/conquerblocks/posts/?feedView=all"><img src="img/LinkedIn.svg" alt="Link a Linkedin"></a>
+     <a href="https://x.com/conquerblocks?lang=es"><img src="img/twitter-fill.svg" alt="Link a X o Twitter"></a>
+    </nav>
+</footer>
 </body>
 </html>

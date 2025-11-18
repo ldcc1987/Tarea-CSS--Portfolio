@@ -1,0 +1,75 @@
+.contact{
+    width: 343px;
+    height: 515px;
+    color: $white;
+    margin-bottom: 87px;
+    border-bottom: 1px solid $grey;
+    .contact_title{
+        font-family: $primary_font;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 40px;
+        letter-spacing: -1.14px;
+        text-align: center;
+    }
+    .contact_description{
+        font-family: $primary_font;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 0px;
+        text-align: center;
+    }
+    .contact_message{
+        div{
+            font-family: $primary_font;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 26px;
+            letter-spacing: -0.22px;
+            color:$grey;
+        }
+        input{
+            width: 343px;
+            border:0;
+            border-bottom: 1px solid $grey;
+            background: transparent;
+            margin-bottom: 32px;
+        }
+        .mesagge{
+            input{
+                width: 343px;
+                height: 107px;
+                border:0;
+                border-bottom: 1px solid $grey;
+                background: transparent;
+                margin-bottom: 32px;
+                color: $green;
+            }
+        }
+        .message_button{
+                border-bottom: 0;
+                margin-left: auto;
+                width: 144px;
+                height: 38px;
+                a{
+                    font-family: $primary-font;
+                    font-weight: 700;
+                    font-size: 16px;
+                    line-height: 26px;
+                    letter-spacing: 2.29px;
+                }
+        }
+        .ovalos li{
+                     border: 0.2px solid rgb(63, 63, 63);
+                     width: 530px;
+                     height: 80px;
+                     top:100px;
+                     left:-342px;
+                     position: relative;
+                     border-radius: 50%;
+                     margin-top:-70px;
+                     z-index: -1;
+}
+    }
+}
