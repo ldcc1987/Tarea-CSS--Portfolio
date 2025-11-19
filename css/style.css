@@ -66,6 +66,55 @@ footer {
           width: 24px;
           height: 24px; } }
 
+@media (max-width: 1920px) and (min-width: 1441px) {
+  footer {
+    padding-bottom: 92px;
+    border-top: 1px solid #D9D9D9;
+    width: 1110px;
+    height: 63px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 192px;
+    margin-bottom: 40px; }
+    footer .footer_main {
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 47px; }
+      footer .footer_main .img_logo img {
+        width: 172px;
+        height: 32px; }
+      footer .footer_main .footer_nav {
+        gap: 32px; }
+        footer .footer_main .footer_nav a img {
+          width: 24px;
+          height: 24px; } }
+@media (max-width: 1440px) and (min-width: 1025px) {
+  footer {
+    padding-bottom: 92px;
+    border-top: 1px solid #D9D9D9;
+    width: 1110px;
+    height: 63px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 192px;
+    margin-bottom: 40px; }
+    footer .footer_main {
+      margin: 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 47px; }
+      footer .footer_main .img_logo img {
+        width: 172px;
+        height: 32px; }
+      footer .footer_main .footer_nav {
+        gap: 32px; }
+        footer .footer_main .footer_nav a img {
+          width: 24px;
+          height: 24px; } }
+
 .main_header {
   width: 154px;
   height: 72px;
@@ -237,6 +286,181 @@ footer {
     header .meet {
       display: inline; } }
 
+@media (max-width: 1920px) and (min-width: 1441px) {
+  header {
+    min-width: 1025px;
+    max-width: auto; }
+    header .main_header {
+      width: auto;
+      height: 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 39px 165px 0 165px;
+      padding: 0; }
+      header .main_header .header_logo img {
+        width: 172px;
+        height: 32px; }
+      header .main_header .header_nav {
+        margin-top: 0;
+        gap: 32px; }
+        header .main_header .header_nav a img {
+          width: 24px;
+          height: 24px; }
+    header .ovalos {
+      position: absolute;
+      left: 250px;
+      top: 133px; }
+    header .main_presentation {
+      display: flex;
+      justify-content: center;
+      flex-direction: row-reverse;
+      align-items: center;
+      gap: 40px;
+      margin-top: 40px; }
+      header .main_presentation .hero_photo .perfil_image {
+        background-image: none;
+        background-image: url(../img/photo_perfil_desktop.png);
+        width: 445px;
+        height: 618px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 15px;
+        left: 350px; }
+      header .main_presentation .hero_photo .circle_border {
+        width: 130px;
+        height: 130px;
+        right: 530px;
+        top: 520px;
+        z-index: 2; }
+      header .main_presentation .hero_presentation {
+        position: absolute;
+        width: 709px;
+        height: 303px;
+        left: 165px;
+        top: 140px; }
+        header .main_presentation .hero_presentation .hero_title {
+          font-family: Space Grotesk;
+          font-weight: 700;
+          font-style: Bold;
+          font-size: 88px;
+          line-height: 88px;
+          letter-spacing: -2.5px;
+          text-align: left; }
+          header .main_presentation .hero_presentation .hero_title h1 {
+            display: block;
+            width: 443px; }
+          header .main_presentation .hero_presentation .hero_title span {
+            border-bottom: 6px solid #4EE1A0; }
+        header .main_presentation .hero_presentation .hero_text {
+          width: 445px;
+          height: 84px;
+          text-align: left;
+          font-family: "Space Grotesk", sans-serif;
+          font-weight: 500;
+          font-style: Medium;
+          font-size: 18px;
+          line-height: 28px;
+          letter-spacing: 0px; }
+        header .main_presentation .hero_presentation .contact_me_button_header {
+          margin-top: 34px;
+          font-family: "Space Grotesk", sans-serif;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: 2.29px;
+          margin-left: 0; }
+    header .meet {
+      display: none; } }
+@media (max-width: 1440px) and (min-width: 1025px) {
+  header {
+    min-width: 1025px;
+    max-width: auto; }
+    header .main_header {
+      width: auto;
+      height: 32px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 39px 165px 0 165px;
+      padding: 0; }
+      header .main_header .header_logo img {
+        width: 172px;
+        height: 32px; }
+      header .main_header .header_nav {
+        margin-top: 0;
+        gap: 32px; }
+        header .main_header .header_nav a img {
+          width: 24px;
+          height: 24px; }
+    header .ovalos {
+      position: absolute;
+      left: 250px;
+      top: 133px; }
+    header .main_presentation {
+      display: flex;
+      justify-content: center;
+      flex-direction: row-reverse;
+      align-items: center;
+      gap: 40px;
+      margin-top: 40px; }
+      header .main_presentation .hero_photo .perfil_image {
+        background-image: none;
+        background-image: url(../img/photo_perfil_desktop.png);
+        width: 445px;
+        height: 618px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        position: relative;
+        top: 15px;
+        left: 350px; }
+      header .main_presentation .hero_photo .circle_border {
+        width: 130px;
+        height: 130px;
+        right: 530px;
+        top: 520px;
+        z-index: 2; }
+      header .main_presentation .hero_presentation {
+        position: absolute;
+        width: 709px;
+        height: 303px;
+        left: 165px;
+        top: 140px; }
+        header .main_presentation .hero_presentation .hero_title {
+          font-family: Space Grotesk;
+          font-weight: 700;
+          font-style: Bold;
+          font-size: 88px;
+          line-height: 88px;
+          letter-spacing: -2.5px;
+          text-align: left; }
+          header .main_presentation .hero_presentation .hero_title h1 {
+            display: block;
+            width: 443px; }
+          header .main_presentation .hero_presentation .hero_title span {
+            border-bottom: 6px solid #4EE1A0; }
+        header .main_presentation .hero_presentation .hero_text {
+          width: 445px;
+          height: 84px;
+          text-align: left;
+          font-family: "Space Grotesk", sans-serif;
+          font-weight: 500;
+          font-style: Medium;
+          font-size: 18px;
+          line-height: 28px;
+          letter-spacing: 0px; }
+        header .main_presentation .hero_presentation .contact_me_button_header {
+          margin-top: 34px;
+          font-family: "Space Grotesk", sans-serif;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: 2.29px;
+          margin-left: 0; }
+    header .meet {
+      display: none; } }
+
 body {
   background-color: #242424;
   margin-left: auto;
@@ -364,6 +588,144 @@ body {
       border-radius: 50%;
       margin-top: -70px;
       z-index: -1; } }
+@media (max-width: 1920px) and (min-width: 1441px) {
+  .contact {
+    display: flex;
+    gap: 220px;
+    align-items: flex-start;
+    width: 1110px;
+    height: 327px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    margin-top: 120px; }
+    .contact .contact_text {
+      width: 445px;
+      height: 208px; }
+      .contact .contact_text .contact_title {
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 72px;
+        letter-spacing: -2.05px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 445px;
+        margin-top: 0;
+        margin-bottom: 36px; }
+      .contact .contact_text .contact_description {
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left; }
+    .contact .contact_message div {
+      margin-top: 0;
+      font-family: "Space Grotesk", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: -0.22px; }
+    .contact .contact_message input {
+      width: 445px; }
+    .contact .contact_message input:last-of-type {
+      height: 107px; }
+    .contact .contact_message .mesagge input {
+      height: 107px;
+      width: 445px; }
+    .contact .contact_message .message_button {
+      width: 144px;
+      height: 38px;
+      margin-right: 80px; }
+      .contact .contact_message .message_button a {
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 2.29px; }
+    .contact .contact_message .ovalos_footer li {
+      list-style: none;
+      border: 1px solid #555555;
+      width: 530px;
+      height: 80px;
+      top: -82px;
+      left: -1035px;
+      position: relative;
+      border-radius: 50%;
+      margin-top: -70px;
+      z-index: -1; } }
+@media (max-width: 1440px) and (min-width: 1025px) {
+  .contact {
+    display: flex;
+    gap: 220px;
+    align-items: flex-start;
+    width: 1110px;
+    height: 327px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0;
+    margin-top: 120px; }
+    .contact .contact_text {
+      width: 445px;
+      height: 208px; }
+      .contact .contact_text .contact_title {
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 72px;
+        letter-spacing: -2.05px;
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        width: 445px;
+        margin-top: 0;
+        margin-bottom: 36px; }
+      .contact .contact_text .contact_description {
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 500;
+        font-style: Medium;
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 0px;
+        text-align: left; }
+    .contact .contact_message div {
+      margin-top: 0;
+      font-family: "Space Grotesk", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 26px;
+      letter-spacing: -0.22px; }
+    .contact .contact_message input {
+      width: 445px; }
+    .contact .contact_message input:last-of-type {
+      height: 107px; }
+    .contact .contact_message .mesagge input {
+      height: 107px;
+      width: 445px; }
+    .contact .contact_message .message_button {
+      width: 144px;
+      height: 38px;
+      margin-right: 80px; }
+      .contact .contact_message .message_button a {
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 2.29px; }
+    .contact .contact_message .ovalos_footer li {
+      list-style: none;
+      border: 1px solid #555555;
+      width: 530px;
+      height: 80px;
+      top: -82px;
+      left: -1035px;
+      position: relative;
+      border-radius: 50%;
+      margin-top: -70px;
+      z-index: -1; } }
 .proyects {
   color: #FFFFFF;
   margin-top: 0; }
@@ -456,6 +818,75 @@ body {
       .proyects .section_proyects .subarticle .proyect_1_h2 {
         margin-bottom: 7px; } }
 
+@media (max-width: 1920px) and (min-width: 1441px) {
+  .proyects .section_proyects {
+    padding: 0px 15px 0px 15px; }
+    .proyects .section_proyects .section_proyects_main {
+      display: flex;
+      margin-bottom: 60px; }
+      .proyects .section_proyects .section_proyects_main .proyects {
+        margin-left: 130px;
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 72px;
+        letter-spacing: -2.05px; }
+      .proyects .section_proyects .section_proyects_main .contact_me_button_proyect {
+        margin-right: 130px;
+        width: 120px;
+        height: 38px; }
+        .proyects .section_proyects .section_proyects_main .contact_me_button_proyect a {
+          font-family: "Space Grotesk", sans-serif;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: 2.29px; }
+    .proyects .section_proyects .subarticle {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      margin-bottom: 50px;
+      gap: 25px; }
+      .proyects .section_proyects .subarticle img {
+        width: 540px;
+        height: 400px; }
+      .proyects .section_proyects .subarticle .proyect_1_h2 {
+        margin-bottom: 7px; } }
+@media (max-width: 1440px) and (min-width: 1025px) {
+  .proyects .section_proyects {
+    padding: 0px 15px 0px 15px; }
+    .proyects .section_proyects .section_proyects_main {
+      display: flex;
+      margin-bottom: 60px; }
+      .proyects .section_proyects .section_proyects_main .proyects {
+        margin-left: 130px;
+        font-family: "Space Grotesk", sans-serif;
+        font-weight: 700;
+        font-size: 72px;
+        line-height: 72px;
+        letter-spacing: -2.05px; }
+      .proyects .section_proyects .section_proyects_main .contact_me_button_proyect {
+        margin-right: 130px;
+        width: 120px;
+        height: 38px; }
+        .proyects .section_proyects .section_proyects_main .contact_me_button_proyect a {
+          font-family: "Space Grotesk", sans-serif;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 26px;
+          letter-spacing: 2.29px; }
+    .proyects .section_proyects .subarticle {
+      display: flex;
+      justify-content: center;
+      flex-wrap: nowrap;
+      margin-bottom: 50px;
+      gap: 25px; }
+      .proyects .section_proyects .subarticle img {
+        width: 540px;
+        height: 400px; }
+      .proyects .section_proyects .subarticle .proyect_1_h2 {
+        margin-bottom: 7px; } }
+
 .technologies {
   margin-top: 80px;
   width: 345px;
@@ -467,8 +898,11 @@ body {
   margin-right: auto; }
   .technologies .section_technologies {
     width: 345px;
-    height: 522px; }
-    .technologies .section_technologies .subsection div {
+    height: 522px;
+    min-width: 345px;
+    margin-left: auto;
+    margin-right: auto; }
+    .technologies .section_technologies div {
       padding-top: 40px;
       margin-left: auto;
       margin-right: auto;
@@ -476,7 +910,7 @@ body {
       height: 87px;
       text-align: center;
       margin-bottom: -35px; }
-      .technologies .section_technologies .subsection div h2 {
+      .technologies .section_technologies div h2 {
         margin-bottom: 0;
         font-family: "Space Grotesk", sans-serif;
         font-weight: 700;
@@ -486,7 +920,7 @@ body {
         text-align: center;
         padding-top: 0;
         margin-top: 0; }
-      .technologies .section_technologies .subsection div p {
+      .technologies .section_technologies div p {
         margin-top: 0;
         font-family: "Space Grotesk", sans-serif;
         font-weight: 500;
@@ -494,33 +928,35 @@ body {
         line-height: 26px;
         letter-spacing: 0px;
         text-align: center; }
-    .technologies .section_technologies .ovalos_center li {
-      list-style: none;
-      border: 0.2px solid grey;
-      width: 530px;
-      height: 80px;
-      top: 15px;
-      right: -200px;
-      position: relative;
-      border-radius: 50%;
-      margin-top: -70px;
-      z-index: -1; }
+  .technologies .ovalos_center li {
+    list-style: none;
+    border: 0.2px solid grey;
+    width: 530px;
+    height: 80px;
+    top: 15px;
+    right: -200px;
+    position: relative;
+    border-radius: 50%;
+    margin-top: -70px;
+    z-index: -1; }
 
 @media (max-width: 1024px) and (min-width: 768px) {
   .technologies {
     min-width: 708px;
     max-width: 1000px;
     border-bottom: 0; }
-    .technologies .section_technologies .subsection {
-      display: flex;
-      justify-content: space-between;
-      flex-wrap: nowrap;
-      margin: 52px 0px 52px 0px; }
-      .technologies .section_technologies .subsection div {
-        width: 345px;
+    .technologies .section_technologies {
+      width: 100%; }
+      .technologies .section_technologies div {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 52px px 52px 0px;
+        width: 49%;
         height: 98px;
-        display: inline-block; }
-        .technologies .section_technologies .subsection div h2 {
+        display: inline-block;
+        box-sizing: border-box; }
+        .technologies .section_technologies div h2 {
           font-family: "Space Grotesk", sans-serif;
           font-weight: 700;
           font-style: Bold;
@@ -528,27 +964,126 @@ body {
           line-height: 56px;
           letter-spacing: -1.5px;
           text-align: left; }
-        .technologies .section_technologies .subsection div p {
+        .technologies .section_technologies div p {
           margin-top: 14px;
           width: 345px;
           height: 28px;
-          font-family: Space Grotesk;
+          font-family: "Space Grotesk", sans-serif;
           font-weight: 500;
           font-style: Medium;
           font-size: 18px;
           line-height: 28px;
           letter-spacing: 0px;
           text-align: left; }
-    .technologies .section_technologies .ovalos_center {
+    .technologies .ovalos_center {
       width: 530px;
       height: 129px; }
-      .technologies .section_technologies .ovalos_center li {
+      .technologies .ovalos_center li {
         list-style: none;
         border: 1px solid #3f3f3f;
         width: 530px;
         height: 80px;
         top: 63px;
         right: -530px;
+        position: relative;
+        border-radius: 50%;
+        margin-top: -95px;
+        z-index: -1; } }
+
+@media (max-width: 1920px) and (min-width: 1441px) {
+  .technologies {
+    min-width: 1024px;
+    max-width: auto;
+    border-bottom: 0; }
+    .technologies .section_technologies {
+      width: 100%; }
+      .technologies .section_technologies div {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 52px 0px 52px 0px;
+        width: 33%;
+        height: 98px;
+        display: inline-block;
+        box-sizing: border-box; }
+        .technologies .section_technologies div h2 {
+          font-family: "Space Grotesk", sans-serif;
+          font-weight: 700;
+          font-style: Bold;
+          font-size: 48px;
+          line-height: 56px;
+          letter-spacing: -1.5px;
+          text-align: left; }
+        .technologies .section_technologies div p {
+          margin-top: 14px;
+          width: 345px;
+          height: 28px;
+          font-family: "Space Grotesk", sans-serif;
+          font-weight: 500;
+          font-style: Medium;
+          font-size: 18px;
+          line-height: 28px;
+          letter-spacing: 0px;
+          text-align: left; }
+    .technologies .ovalos_center {
+      width: 530px;
+      height: 129px; }
+      .technologies .ovalos_center li {
+        list-style: none;
+        border: 1px solid #3f3f3f;
+        width: 530px;
+        height: 80px;
+        top: -35px;
+        right: -900px;
+        position: relative;
+        border-radius: 50%;
+        margin-top: -95px;
+        z-index: -1; } }
+@media (max-width: 1440px) and (min-width: 1025px) {
+  .technologies {
+    min-width: 1024px;
+    max-width: auto;
+    border-bottom: 0; }
+    .technologies .section_technologies {
+      width: 100%; }
+      .technologies .section_technologies div {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin: 52px 0px 52px 0px;
+        width: 33%;
+        height: 98px;
+        display: inline-block;
+        box-sizing: border-box; }
+        .technologies .section_technologies div h2 {
+          font-family: "Space Grotesk", sans-serif;
+          font-weight: 700;
+          font-style: Bold;
+          font-size: 48px;
+          line-height: 56px;
+          letter-spacing: -1.5px;
+          text-align: left; }
+        .technologies .section_technologies div p {
+          margin-top: 14px;
+          width: 345px;
+          height: 28px;
+          font-family: "Space Grotesk", sans-serif;
+          font-weight: 500;
+          font-style: Medium;
+          font-size: 18px;
+          line-height: 28px;
+          letter-spacing: 0px;
+          text-align: left; }
+    .technologies .ovalos_center {
+      width: 530px;
+      height: 129px; }
+      .technologies .ovalos_center li {
+        list-style: none;
+        border: 1px solid #3f3f3f;
+        width: 530px;
+        height: 80px;
+        top: -35px;
+        right: -900px;
         position: relative;
         border-radius: 50%;
         margin-top: -95px;

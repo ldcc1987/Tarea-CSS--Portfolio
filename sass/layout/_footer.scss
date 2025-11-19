@@ -45,3 +45,38 @@ footer{
     }
 }
 }
+
+//Desde Aqui empieza el breakpoint para desktop
+footer{
+@include breakpoint(desktop){
+    padding-bottom: 92px;
+    border-top: 1px solid $grey;
+    width: 1110px;
+    height: 63px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 192px;
+    margin-bottom: 40px;
+    .footer_main{
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center; 
+        padding-top: 47px;  
+       
+        .img_logo{
+            img{
+                width: 172px;
+                height: 32px;
+            }  
+        }
+        .footer_nav{
+            gap:32px;
+            a img{
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+}
+}

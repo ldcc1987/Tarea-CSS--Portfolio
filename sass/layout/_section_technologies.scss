@@ -10,7 +10,9 @@
     .section_technologies{
         width: 345px;
         height: 522px;
-        .subsection{
+        min-width: 345px;
+        margin-left: auto;
+        margin-right: auto;
             div{
              padding-top: 40px;
              margin-left: auto;
@@ -54,7 +56,7 @@
                      z-index: -1;
         }
     }
-}
+
 
 //Desde Aqui empieza el breackpoint de tablet
 
@@ -64,16 +66,16 @@
            max-width: 1000px;
            border-bottom: 0;
            .section_technologies{
-                    
-                .subsection{  
-                    display: flex;
-                    justify-content: space-between;
-                    flex-wrap: nowrap;
-                    margin: 52px 0px 52px 0px;
-                    div{
-                        width: 345px;
+                     width: 100%;
+                     div{
+                     display: flex;    
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        margin: 52px px 52px 0px;
+                        width: 49%;
                         height: 98px;
                         display: inline-block;
+                        box-sizing: border-box;
                     h2{
                         font-family: $primary-font;
                         font-weight: 700;
@@ -87,7 +89,7 @@
                         margin-top: 14px;
                         width: 345px;
                         height: 28px;
-                        font-family: Space Grotesk;
+                        font-family: $primary-font;
                         font-weight: 500;
                         font-style: Medium;
                         font-size: 18px;
@@ -116,4 +118,67 @@
                 }
         }
     }
-}
+
+
+//Desde Aqui empieza el breackpoint de Desktop
+
+.technologies{
+    @include breakpoint(desktop){
+           min-width: 1024px;
+           max-width: auto;
+           border-bottom: 0;
+           .section_technologies{
+                    width: 100%;
+        
+                    div{
+                     display: flex;    
+                        justify-content: space-between;
+                        flex-wrap: wrap;
+                        margin: 52px 0px 52px 0px;
+                        width: 33%;
+                        height: 98px;
+                        display: inline-block;
+                        box-sizing: border-box;
+                    h2{
+                        font-family: $primary-font;
+                        font-weight: 700;
+                        font-style: Bold;
+                        font-size: 48px;
+                        line-height: 56px;
+                        letter-spacing: -1.5px;
+                        text-align: left; 
+                    }
+                    p{
+                        margin-top: 14px;
+                        width: 345px;
+                        height: 28px;
+                        font-family: $primary-font;
+                        font-weight: 500;
+                        font-style: Medium;
+                        font-size: 18px;
+                        line-height: 28px;
+                        letter-spacing: 0px;
+                        text-align: left; 
+                    }
+                    }      
+                }
+                .ovalos_center{
+                    width: 530px;
+                    height: 129px;
+               
+                    li{
+                         list-style: none;
+                         border: 1px solid rgb(63, 63, 63);
+                         width: 530px;
+                         height: 80px;
+                         top: -35px;
+                         right:-900px;
+                         position: relative;
+                         border-radius: 50%;
+                         margin-top:-95px;
+                         z-index: -1;
+                          }
+                }
+        }
+    }
+
