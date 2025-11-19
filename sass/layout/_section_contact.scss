@@ -61,6 +61,7 @@
                 }
         }
         .ovalos_footer li{
+                     list-style: none;
                      border: 0.2px solid rgb(63, 63, 63);
                      width: 530px;
                      height: 80px;
@@ -70,6 +71,6 @@
                      border-radius: 50%;
                      margin-top:-70px;
                      z-index: -1;
-}
+                    }
     }
 }
