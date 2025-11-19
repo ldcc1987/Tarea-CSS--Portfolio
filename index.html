@@ -46,14 +46,16 @@
       <li></li>
       <li></li>
     </div>
-    <div class="hero_photo">
-      <div class="circle_border"></div>
-      <div class="perfil_image"></div>
-    </div>
-    <div class="hero_presentation">
-      <h1 class="hero_title">Nice to meet you! I’m <span> Adam Keyes</span>.</h1>
-      <p class="hero_text">Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
-      <div class="contact_me_button_header"><button class="header_button"><a href="#">CONTACT ME</a></button></div>
+    <div class="main_presentation">
+        <div class="hero_photo">
+          <div class="circle_border"></div>
+          <div class="perfil_image"></div>
+        </div>
+        <div class="hero_presentation">
+          <h1 class="hero_title">Nice to <br class="meet"> meet you! I’m <span> Adam Keyes</span>.</h1>
+          <p class="hero_text">Based in the UK, I’m a front-end developer passionate about building accessible web apps that users love.</p>
+          <div class="contact_me_button_header"><button class="header_button"><a href="#">CONTACT ME</a></button></div>
+        </div>
     </div>
   </div>   
 </header>
@@ -61,12 +63,18 @@
 <!-- Section tecnologies: name-description, name-description, name-description, name-description, name-description, name-description, div{*5 oval border}-->
  <section class="technologies">
   <div class="section_technologies">
-    <div class="html"><h2>HTML</h2><p>4 Years Experience</p></div>
-    <div class="css"><h2>CSS</h2><p>4 Years Experience</p></div>
-    <div class="javascript"><h2>Javascript</h2><p>4 Years Experience</p></div>
-    <div class="accessibility"><h2>Accessibility</h2><p>4 Years Experience</p></div>
-    <div class="react"><h2>React</h2><p>3 Years Experience</p></div>
-    <div class="sass"><h2>Sass</h2><p>3 Years Experience</p></div>
+    <div class="subsection">
+       <div class="html"><h2>HTML</h2><p>4 Years Experience</p></div>
+       <div class="css"><h2>CSS</h2><p>4 Years Experience</p></div>
+    </div>
+    <div class="subsection">
+        <div class="javascript"><h2>Javascript</h2><p>4 Years Experience</p></div>
+        <div class="accessibility"><h2>Accessibility</h2><p>4 Years Experience</p></div>
+    </div>
+    <div class="subsection">
+       <div class="react"><h2>React</h2><p>3 Years Experience</p></div>
+       <div class="sass"><h2>Sass</h2><p>3 Years Experience</p></div>
+    </div>
     <div class="ovalos_center">
         <li></li>
         <li></li>
@@ -83,83 +91,89 @@
       <h2 class="proyects">Projects</h2>
       <div class="contact_me_button_proyect"><button><a href="#">CONTACT ME</a></button></div>
     </div>
-    <article class="proyect1">
-      <img src="img/design_page.jpg" alt="Imagen del proyecto 1">
-      <h2 class="proyect_1_h2">DESIGN PORTFOLIO</h2>
-      <div class="proyect_links">
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-      </div>  
-      <div class="proyect_buttons">
-        <button><a href="#">VIEW PROJECT</a></button>
-        <button><a href="#">VIEW CODE</a></button>
-      </div> 
-    </article>
-    <article class="proyect2">
-      <img src="img/E-Learning_landing_page.jpg" alt="Imagen del proyecto 2">
-      <h2 class="proyect_1_h2">E-LEARNING LANDING PAGE</h2>
-      <div class="proyect_links">
-        
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-      </div>  
-      <div class="proyect_buttons">
-        <button><a href="#">VIEW PROJECT</a></button>
-        <button><a href="#">VIEW CODE</a></button>
-      </div> 
-    </article>
-    <article class="proyect3">
-      <img src="img/Todo_web_app.jpg" alt="Imagen del proyecto 3">
-      <h2 class="proyect_1_h2">TODO WEB APP</h2>
-      <div class="proyect_links">
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">JAVASCRIPT</a>
-      </div>  
-      <div class="proyect_buttons">
-        <button><a href="#">VIEW PROJECT</a></button>
-        <button><a href="#">VIEW CODE</a></button>
-      </div> 
-    </article>
-    <article class="proyect4">
-      <img src="img/Entertainment_web_app.jpg" alt="Imagen del proyecto 4">
-      <h2 class="proyect_1_h2">ENTERTAINMENT WEB APP</h2>
-      <div class="proyect_links">
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">JAVASCRIPT</a>
-      </div>  
-      <div class="proyect_buttons">
-        <button><a href="#">VIEW PROJECT</a></button>
-        <button><a href="#">VIEW CODE</a></button>
-      </div> 
-    </article>
-    <article class="proyect5">
-      <img src="img/Memory_game.jpg" alt="Imagen del proyecto 5">
-      <h2 class="proyect_1_h2">MEMORY GAME</h2>
-      <div class="proyect_links">
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">JAVASCRIPT</a>
-      </div>  
-      <div class="proyect_buttons">
-        <button><a href="#">VIEW PROJECT</a></button>
-        <button><a href="#">VIEW CODE</a></button>
-      </div> 
-    </article>
-    <article class="proyect1">
-      <img src="img/Art_gallery_showcase.jpg" alt="Imagen del proyecto 6">
-      <h2 CLASS="proyect_1_h2">ART GALLERY SHOWCASE</h2>
-      <div class="proyect_links">
-        <a href="#">HTML</a>
-        <a href="#">CSS</a>
-        <a href="#">JAVASCRIPT</a>
-      </div>  
-      <div class="proyect_buttons">
-        <button><a href="#">VIEW PROJECT</a></button>
-        <button><a href="#">VIEW CODE</a></button>
-      </div> 
-    </article>
+    <div class="subarticle">
+       <article class="proyect1">
+         <img src="img/design_page.jpg" alt="Imagen del proyecto 1">
+         <h2 class="proyect_1_h2">DESIGN PORTFOLIO</h2>
+         <div class="proyect_links">
+           <a href="#">HTML</a>
+           <a href="#">CSS</a>
+         </div>  
+         <div class="proyect_buttons">
+           <button><a href="#">VIEW PROJECT</a></button>
+           <button><a href="#">VIEW CODE</a></button>
+         </div> 
+       </article>
+       <article class="proyect2">
+         <img src="img/E-Learning_landing_page.jpg" alt="Imagen del proyecto 2">
+         <h2 class="proyect_1_h2">E-LEARNING LANDING PAGE</h2>
+         <div class="proyect_links">
+
+           <a href="#">HTML</a>
+           <a href="#">CSS</a>
+         </div>  
+         <div class="proyect_buttons">
+           <button><a href="#">VIEW PROJECT</a></button>
+           <button><a href="#">VIEW CODE</a></button>
+         </div> 
+       </article>
+    </div>
+    <div class="subarticle">
+       <article class="proyect3">
+         <img src="img/Todo_web_app.jpg" alt="Imagen del proyecto 3">
+         <h2 class="proyect_1_h2">TODO WEB APP</h2>
+         <div class="proyect_links">
+           <a href="#">HTML</a>
+           <a href="#">CSS</a>
+           <a href="#">JAVASCRIPT</a>
+         </div>  
+         <div class="proyect_buttons">
+           <button><a href="#">VIEW PROJECT</a></button>
+           <button><a href="#">VIEW CODE</a></button>
+         </div> 
+       </article>
+       <article class="proyect4">
+         <img src="img/Entertainment_web_app.jpg" alt="Imagen del proyecto 4">
+         <h2 class="proyect_1_h2">ENTERTAINMENT WEB APP</h2>
+         <div class="proyect_links">
+           <a href="#">HTML</a>
+           <a href="#">CSS</a>
+           <a href="#">JAVASCRIPT</a>
+         </div>  
+         <div class="proyect_buttons">
+           <button><a href="#">VIEW PROJECT</a></button>
+           <button><a href="#">VIEW CODE</a></button>
+         </div> 
+       </article>
+    </div>
+    <div class="subarticle">
+       <article class="proyect5">
+         <img src="img/Memory_game.jpg" alt="Imagen del proyecto 5">
+         <h2 class="proyect_1_h2">MEMORY GAME</h2>
+         <div class="proyect_links">
+           <a href="#">HTML</a>
+           <a href="#">CSS</a>
+           <a href="#">JAVASCRIPT</a>
+         </div>  
+         <div class="proyect_buttons">
+           <button><a href="#">VIEW PROJECT</a></button>
+           <button><a href="#">VIEW CODE</a></button>
+         </div> 
+       </article>
+       <article class="proyect6">
+         <img src="img/Art_gallery_showcase.jpg" alt="Imagen del proyecto 6">
+         <h2 CLASS="proyect_1_h2">ART GALLERY SHOWCASE</h2>
+         <div class="proyect_links">
+           <a href="#">HTML</a>
+           <a href="#">CSS</a>
+           <a href="#">JAVASCRIPT</a>
+         </div>  
+         <div class="proyect_buttons">
+           <button><a href="#">VIEW PROJECT</a></button>
+           <button><a href="#">VIEW CODE</a></button>
+         </div> 
+       </article>
+  </div>
   </div>
  </section>
 
@@ -170,11 +184,11 @@
     <p class="contact_description">I would love to hear about your project and how I could help. Please fill in the form, and I’ll get back to you as soon as possible.</p>
   </div>
   <div class="contact_message">
-    <div class="name">Name</div>
+    <div class="name">NAME</div>
     <input type="text"></input>
-    <div class="email">Email</div>
+    <div class="email">EMAIL</div>
     <input type="email"></input>
-    <div class="mesagge">Mesagge
+    <div class="mesagge">MESAGGE
     <input type="text"></input></div>
     <div class="message_button"><button><a href="#">SEND MESSAGE</a></button></div>
     <div class="ovalos_footer">

@@ -75,3 +75,44 @@
         }
     }
 }
+
+//Desde aqui empieza el breackpoint para tablet
+
+.proyects{
+    @include breakpoint(tablet){
+        .section_proyects{
+            padding: 0px 15px 0px 15px;
+            .section_proyects_main{
+                display: flex;
+                margin-bottom: 60px;
+                .proyects{
+                    font-family: $primary-font;
+                    font-weight: 700;
+                    font-size: 72px;
+                    line-height: 72px;
+                    letter-spacing: -2.05px;
+                }
+                .contact_me_button_proyect{
+                    width: 120px;
+                    height: 38px;
+                    a{
+                        font-family: $primary-font;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 26px;
+                        letter-spacing: 2.29px;    
+                    }
+                }
+            }
+            .subarticle{
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: nowrap;
+                margin-bottom: 50px;
+                .proyect_1_h2{
+                    margin-bottom: 7px;
+                }
+            }    
+        }
+    }
+}

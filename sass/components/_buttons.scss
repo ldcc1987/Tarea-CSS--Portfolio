@@ -22,3 +22,11 @@ button{
 button:hover{
     color:$green;
 }
+button a:hover{
+    color:$green;
+}
+button{
+    @include breakpoint(tablet){
+        border-bottom: 2px solid $green;
+    }
+}
