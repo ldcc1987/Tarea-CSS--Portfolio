@@ -1,6 +1,5 @@
 .contact{
     width: 343px;
-    height: 515px;
     color: $white;
     margin-bottom: 87px;
     border-bottom: 1px solid $grey;
@@ -52,6 +51,7 @@
                 margin-left: auto;
                 width: 144px;
                 height: 38px;
+                margin-bottom: 87px;
                 a{
                     font-family: $primary-font;
                     font-weight: 700;
@@ -60,11 +60,11 @@
                     letter-spacing: 2.29px;
                 }
         }
-        .ovalos li{
+        .ovalos_footer li{
                      border: 0.2px solid rgb(63, 63, 63);
                      width: 530px;
                      height: 80px;
-                     top:100px;
+                     top:-150px;
                      left:-342px;
                      position: relative;
                      border-radius: 50%;
